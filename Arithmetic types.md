@@ -6,7 +6,7 @@ The minimum size is not defined.
 C++ provided several character types, most of them support internationlization. The basic character type is **char**, one **char** is the same size as one byte.  
 Ohter character types are used to extend character set, like wchar_t, char16_t, char32_t. **wchar_t** type is used to ensure that any character in the maximum extended character set of the machine can be stored. **char16_t** and **char32_t** servered Unicode character set.
 ## Integer types
-![integer types & their properties from https://en.cppreference.com/w/c/language/arithmetic_types](assets/integer_types&their_properties.png)
+![integer types & their properties](assets/integer_types&their_properties.png)  
 Besides the minimal bit counts, the C++ Standard guarantees that:
 - **1 == sizeof(char) <= sizeof(short) <= sizeof(int) <= sizeof(long) <= sizeof(long long)**
 ## Floating types
