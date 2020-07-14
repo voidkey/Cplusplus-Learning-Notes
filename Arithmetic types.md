@@ -10,19 +10,19 @@ Ohter character types are used to extend character set, like wchar_t, char16_t, 
 Besides the minimal bit counts, the C++ Standard guarantees that:
 - **1 == sizeof(char) <= sizeof(short) <= sizeof(int) <= sizeof(long) <= sizeof(long long)**
 ## Floating types
-floating types can be further divided into three categories: 
+floating types can be further divided into three categories:  
 **1. Real floating types**
 - float
 - double 
-- long double 
+- long double  
 **2. Complex floating types**
 - float complex 
 - double complex 
-- long double complex 
+- long double complex  
 **3. Imaginary floating types**
 - float imaginary 
 - double imaginary
-- long double imaginary
+- long double imaginary  
 The latter two need to include <complex.h>. They are generally not used, so just know them.
 ## range of value
 ![range_of_value](assets/range_of_value.png)
