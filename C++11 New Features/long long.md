@@ -1,0 +1,2 @@
+- Data type **long long** is newly defined in C++11.
+- A **long long** is at least as big as a **long**
