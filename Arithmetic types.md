@@ -55,7 +55,7 @@ int main ()
   return 0;
 }
 ```
-These two types need to include **&lt;complex&rt;**, and theyr are generally not used, so just know them.
+These two types need to include **&lt;complex&gt;**, and theyr are generally not used, so just know them.
 
 C++ Stanard specified the minimum number of significant digits in a floating point number, however most compilers achieved higher precision. Usually, **float** is represented by one word(32 bit), **double** is represented by two word(64 bit), **long double** is represented by three or four word. 
 
