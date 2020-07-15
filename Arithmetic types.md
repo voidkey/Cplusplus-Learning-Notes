@@ -15,10 +15,12 @@ floating types can be further divided into three categories:
 - float
 - double 
 - long double  
+
 **2. Complex floating types**
 - float complex 
 - double complex 
-- long double complex 
+- long double complex  
+
 **3. Imaginary floating types**
 - float imaginary 
 - double imaginary
