@@ -24,7 +24,8 @@ floating types can be further divided into three categories:
 **3. Imaginary floating types**
 - float imaginary 
 - double imaginary
-- long double imaginary
+- long double imaginary  
+
 The latter two need to include <complex.h>. They are generally not used, so just know them.
 ## Range of value
 ![range_of_value](assets/range_of_value.png)
