@@ -1,3 +1,5 @@
+List initialization (using curly braces) is better than the alternatives.
+
 ```C++
 MyClass a1 {a};     // clearer and less error-prone than the other three
 MyClass a2 = {a};
@@ -36,11 +38,12 @@ void fun(double val, int val2) {
 }
 ```
 The only situation where = is preferred over {} is when using auto keyword to get the type determined by the initializer.
+
 *Example*
 ```C++
 auto z1 {99};   // z1 is an int
 auto z2 = {99}; // z2 is std::initializer_list<int>
 auto z3 = 99;   // z3 is an int
 ```
-##Conclusion
+## Conclusion
 Prefer {} initialization over alternatives unless you have a strong reason not to.
