@@ -1,3 +1,5 @@
+Note: Initialization is not equal to assignment. The meaning of initialization is to give variable a intial value when creating it, and the meaning of assignment is to erase the current value of object, then replace it with a new value.
+
 List initialization (using curly braces) is better than the alternatives.
 
 ```C++
