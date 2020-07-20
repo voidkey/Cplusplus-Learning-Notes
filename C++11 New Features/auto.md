@@ -1,6 +1,6 @@
 For variables, specifies that the type of the variable that is being declared will be automatically deduced from its initializer.
 
-Explanation
+### Explanation  
 A placeholder type specifier may appear in the following contexts:
 
 - in the type specifier of a variable: auto x = expr;. The type is deduced from the initializer.
