@@ -78,8 +78,8 @@ The recursive version is too simple to write down here, The iteration version of
 ## Second method of Post-order (LRN)
 ```C++
   vector<int> postorderTraversal(TreeNode* root) {
+      vector<int> res;      
       stack<TreeNode*> st;
-      vector<int> res;
       st.push(root);
       while (!st.empty()) {
           TreeNode* node = st.top();
