@@ -75,6 +75,24 @@ The recursive version is too simple to write down here, The iteration version of
       return res;
   }
 ```
+## Second method of Post-order (LRN)
+```C++
+  vector<int> postorderTraversal(TreeNode* root) {
+      stack<TreeNode*> st;
+      vector<int> res;
+      st.push(root);
+      while (!st.empty()) {
+          TreeNode* node = st.top();
+          st.pop();
+          if (node) res.push_back(node->val);
+          else continue;
+          st.push(node->left); 
+          st.push(node->right);
+      }
+      reverse(res.begin(), res.end()); 
+      return res;
+  }
+```
 # Breadth-first search/ level order of binary tree 
 ```C++
   vector<vector<int>> levelOrder(TreeNode* root) {
