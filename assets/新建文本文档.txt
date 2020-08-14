@@ -1,0 +1,31 @@
+http://176.113.83.125:9527/394f0475
+
+{
+  "inbounds": [
+    {
+      "port": 10086,
+      "listen":"127.0.0.1",
+      "protocol": "vmess",
+      "settings": {
+        "clients": [
+          {
+            "id": "1a6e73c3-4be2-4d15-86c4-240e6e7f3e81",
+            "alterId": 233
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "wsSettings": {
+        "path": "/nullkey"
+        }
+      }
+    }
+  ],
+  "outbounds": [
+    {
+      "protocol": "freedom",
+      "settings": {}
+    }
+  ]
+}
